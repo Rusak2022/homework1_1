@@ -10,7 +10,7 @@ export const ShopItemFunc = (props) => {
         <div class="highlight-window mobile"><div class="highlight-overlay"></div></div>
         <div class="divider"></div>
         <div class="purchase-info">
-          <div class="price">{item.currency}{item.price}</div>
+          <div class="price">{item.currency}{item.price.toFixed(2)}</div>
           <button>Добавить в корзину</button>
         </div>
       </div>
